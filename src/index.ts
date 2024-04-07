@@ -1,8 +1,13 @@
 import { Logger } from "replugged";
-import { ERROR_RECORD_URL } from "./lib/consts";
-export const PluginLogger = Logger.plugin("AgentReact");
-const REACT_ERRORS_RESPONSE = await fetch(ERROR_RECORD_URL);
-export const ERROR_CODES = await REACT_ERRORS_RESPONSE.json();
-PluginLogger.log("Loaded React Error Database.");
+
+export const PluginLogger = Logger.plugin("AgentReact", "#b380ff");
+
+export const REACT_ERROR_CODES = new Map<string, string>();
+
+import Utils from "./lib/utils";
+
+export const start = (): void => {
+  void Utils.loadReactErrorDB();
+};
 
 export { _decodeError } from "./plaintextFunctions";

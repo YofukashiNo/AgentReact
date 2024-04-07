@@ -3,11 +3,11 @@
   "name": "AgentReact",
   "description": "Shows actual error instead of link and just code.",
   "image": "https://i.imgur.com/W1pBXDK.png",
-  "source": "https://github.com/TharkiDev/AgentReact",
+  "source": "https://github.com/YofukashiNo/AgentReact",
   "author": {
-    "name": "Ahlawat",
+    "name": "Nanakusa",
     "discordID": "1121961711080050780",
-    "github": "TharkiDev"
+    "github": "YofukashiNo"
   },
   "version": "1.0.2",
   "updater": {

@@ -1,3 +1,5 @@
-export { types as DefaultTypes } from "replugged";
-
-export * as default from "./types";
+import { types } from "replugged";
+export namespace Types {
+  export import DefaultTypes = types;
+}
+export default Types;

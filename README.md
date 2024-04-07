@@ -4,7 +4,7 @@ Shows actual error instead of link and just code.
 
 A must have for plugin devs.
 
-Direct Download Link: [dev.tharki.AgentReact.asar](https://github.com/TharkiDev/AgentReact/releases/latest/download/dev.tharki.AgentReact.asar)
+Direct Download Link: [dev.tharki.AgentReact.asar](https://github.com/YofukashiNo/AgentReact/releases/latest/download/dev.tharki.AgentReact.asar)
 
 Install Link:
 
